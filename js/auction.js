@@ -26,3 +26,9 @@ var x = setInterval(function () {
 }, 1000);
 
 //--------------------------------------------------------------------------------------------
+
+const mobileTitle = document.querySelector('.about-lot h2');
+
+if (window.innerWidth < 768) {
+    mobileTitle.innerText = "Title of picture or NFT";
+}
